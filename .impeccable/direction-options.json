@@ -1,0 +1,152 @@
+{
+  "title": "Choose the CAHMA Control visual world",
+  "question": "Both leading directions preserve the live camera system and restrained industrial brief. Choose the operating language that should govern the build.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Optical Metrology Bench",
+      "kicker": "THE DIRECTION",
+      "lineage": "machine-vision calibration stations and optical inspection instruments",
+      "thesis": "Treat every feed as a measured specimen and every dispatch as a traceable instrument reading.",
+      "palette": ["#0d1114", "#182126", "#dce2e3", "#668c9c", "#ba8646", "#ad5c55"],
+      "materials": ["anodized graphite", "engraved instrument plates", "calibration overlays", "hairline steel rules"],
+      "viewport": "A dominant measured camera field anchors the left side while a fixed instrumentation rail reports dispatch, capacity, model state, and alarms; secondary feeds and ranked candidates remain visible below.",
+      "risk": "If the measurement grammar is applied too literally, overlays could compete with the camera imagery.",
+      "raised": [
+        {"from": "ASCII scene", "raise": "One consistent measurement coordinate system adapts across every feed and viewport without imitating a terminal."},
+        {"from": "Cutting bench", "raise": "Recent dispatches form a persistent, readable frame sequence instead of disappearing after each decision."},
+        {"from": "Cyclorama cues", "raise": "Connection and scheduler phases are discrete, named states rather than color-only ambience."},
+        {"from": "Industrial labeling", "raise": "Every region is named literally; unavailable areas receive an explicit structural mark rather than decorative chrome."},
+        {"from": "Streaming focus", "raise": "The selected feed gains real scale while the other feeds remain visible and legible."},
+        {"from": "Orienteering notation", "raise": "Camera imagery, inference overlays, policy, and routing are separate layers with a stable legend."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "system header", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "camera index", "x": 0, "y": 1, "w": 2, "h": 7},
+        {"label": "measured primary feed", "x": 2, "y": 1, "w": 7, "h": 5, "accent": true},
+        {"label": "instrument rail", "x": 9, "y": 1, "w": 3, "h": 5},
+        {"label": "secondary feeds", "x": 2, "y": 6, "w": 4, "h": 2},
+        {"label": "candidate ranks", "x": 6, "y": 6, "w": 6, "h": 2},
+        {"label": "decision sequence", "x": 0, "y": 8, "w": 12, "h": 2}
+      ]},
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Broadcast Engineering Multiviewer",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "broadcast master-control rooms and professional camera multiviewers",
+      "thesis": "Make live feeds the wall and let routing, tally, timing, and alarms behave like broadcast engineering signals.",
+      "palette": ["#0a0d0f", "#171c20", "#e4e8e9", "#637f8b", "#b6884f", "#a65752"],
+      "materials": ["matte equipment rack", "video tally frames", "timecode labels", "signal-status strips"],
+      "viewport": "A disciplined asymmetric multiview puts the active feed first, keeps all cameras live, and places scheduler and resource telemetry in an engineering sidecar.",
+      "risk": "This is the strongest familiar solution, but it can look like a conventional surveillance wall unless CAHMA's policy-first scheduler remains dominant.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "system header", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "primary program feed", "x": 0, "y": 1, "w": 7, "h": 5, "accent": true},
+        {"label": "scheduler sidecar", "x": 7, "y": 1, "w": 5, "h": 5},
+        {"label": "camera multiview", "x": 0, "y": 6, "w": 7, "h": 2},
+        {"label": "resources", "x": 7, "y": 6, "w": 5, "h": 2},
+        {"label": "event log", "x": 0, "y": 8, "w": 12, "h": 2}
+      ]},
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-ascii",
+      "label": "Glyph Scene",
+      "verdict": "declined",
+      "lineage": "live ASCII scene rendering",
+      "thesis": "Translate camera luminance into one character-grid instrumentation surface.",
+      "palette": ["#090b09", "#8da374"],
+      "materials": ["monospace glyph field", "single-ink display"],
+      "viewport": "Every camera becomes a live glyph-density view with metrics embedded in the same grid.",
+      "case": "It commits to one coherent coordinate system but obscures real video evidence and conflicts with the ban on terminal aesthetics.",
+      "risk": "The interface would read as a technical novelty instead of a credible camera operation.",
+      "kept": "A single adaptive measurement grid governs all live regions."
+    },
+    {
+      "id": "challenger-cutting-bench",
+      "label": "Dispatch Cutting Bench",
+      "verdict": "declined",
+      "lineage": "film cutting benches and perforated select rails",
+      "thesis": "Represent scheduler decisions as selected frames on a persistent editorial rail.",
+      "palette": ["#080808", "#e6e3dc", "#b46f34"],
+      "materials": ["work print", "perforated rail", "grease marks"],
+      "viewport": "Feeds sit on a horizontal decision strip with the selected dispatch marked as the current frame.",
+      "case": "The temporal metaphor is useful, but a scrub rail weakens simultaneous system monitoring and camera comparison.",
+      "risk": "It prioritizes history over present operational state.",
+      "kept": "Recent decisions remain visible as a persistent sequence."
+    },
+    {
+      "id": "challenger-cyclorama",
+      "label": "Scheduler Cue Bands",
+      "verdict": "declined",
+      "lineage": "theater lighting cue systems",
+      "thesis": "Organize the scheduler into named phases that move from observation to protected inference.",
+      "palette": ["#0b0d12", "#445a74", "#a77b76", "#e8e7e2"],
+      "materials": ["cue plot", "horizon bands", "lighting state sheet"],
+      "viewport": "System state appears as stacked atmospheric phases tied to a cue timeline.",
+      "case": "Named phases clarify state, but the source relies on gradient atmosphere that the brief explicitly prohibits.",
+      "risk": "Mood would replace exact telemetry.",
+      "kept": "Every runtime phase has a discrete label and non-color indicator."
+    },
+    {
+      "id": "challenger-industrial-label",
+      "label": "Quoted Stockroom",
+      "verdict": "declined",
+      "lineage": "industrial streetwear labeling and warehouse tags",
+      "thesis": "Name every operational zone literally and mark selected state with attached physical tags.",
+      "palette": ["#f1f1ed", "#111315", "#bd7038"],
+      "materials": ["stock labels", "crate plates", "hazard tape"],
+      "viewport": "Feeds and resources become hard-labeled stockroom zones with the active route tagged in orange.",
+      "case": "Literal labeling supports comprehension, but repeated quotation and hazard stripes become decoration and violate the restrained brief.",
+      "risk": "The fashion reference could overwhelm the engineering content.",
+      "kept": "Labels use direct operational nouns and unavailable regions receive unmistakable structure."
+    },
+    {
+      "id": "challenger-streaming",
+      "label": "Focused Camera Catalog",
+      "verdict": "declined",
+      "lineage": "streaming title-card walls",
+      "thesis": "Let the active camera expand while surrounding feeds step back.",
+      "palette": ["#0b0d10", "#dfe3e5", "#69828c"],
+      "materials": ["full-bleed video tiles", "focus rails"],
+      "viewport": "Camera rows expand the selected feed and reveal its operational metadata on focus.",
+      "case": "Feed prominence is useful, but hiding metadata until focus is inappropriate for continuous monitoring.",
+      "risk": "The system would feel like media browsing rather than operations.",
+      "kept": "Selection changes scale without removing awareness of other cameras."
+    },
+    {
+      "id": "challenger-orienteering",
+      "label": "Routing Map Legend",
+      "verdict": "declined",
+      "lineage": "orienteering maps and control legends",
+      "thesis": "Separate fixed camera terrain from a live scheduler route drawn above it.",
+      "palette": ["#e8e7dd", "#68785c", "#7d6354", "#596e80", "#75617d"],
+      "materials": ["fixed-scale map", "symbol legend", "route overlay"],
+      "viewport": "The policy layer stays fixed beneath a numbered live route through camera and model controls.",
+      "case": "Layer separation is excellent, but geographic map semantics and multi-ink color reduce product clarity for a non-spatial scheduler.",
+      "risk": "Judges could mistake routing for camera geography.",
+      "kept": "Base state and live decision overlays remain independently legible."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "Standard dark operations dashboard",
+    "thesis": "A familiar dark admin shell with camera cards, KPI tiles, and charts.",
+    "palette": ["#0f1419", "#1c252d", "#e6edf2", "#4c8db5"],
+    "materials": ["dashboard grid", "neutral panels", "status chips"],
+    "viewport": "A conventional header, KPI row, equal camera cards, and lower monitoring panels.",
+    "risk": "Immediately understandable but largely indistinguishable from generic monitoring software.",
+    "wireframe": {"cols": 12, "rows": 10, "regions": [
+      {"label": "header", "x": 0, "y": 0, "w": 12, "h": 1},
+      {"label": "kpis", "x": 0, "y": 1, "w": 12, "h": 2},
+      {"label": "equal camera cards", "x": 0, "y": 3, "w": 12, "h": 4},
+      {"label": "charts and table", "x": 0, "y": 7, "w": 12, "h": 3}
+    ]},
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}
