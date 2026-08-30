@@ -1,0 +1,32 @@
+[project]
+name = "cahma-edge"
+version = "0.1.0"
+description = "Local edge runtime for CAHMA Arena"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.30,<1",
+  "pydantic-settings>=2.6,<3",
+  "opencv-python-headless>=4.10,<5"
+  ,"numpy>=1.24,<3"
+  ,"joblib==1.3.2"
+  ,"scikit-learn==1.6.0"
+  ,"onnxruntime-directml>=1.20,<2; sys_platform == 'win32'"
+  ,"onnxruntime>=1.20,<2; sys_platform != 'win32'"
+]
+
+[tool.setuptools]
+packages = ["app"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9", "httpx>=0.27,<1", "ruff>=0.8,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"

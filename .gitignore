@@ -1,0 +1,71 @@
+# JavaScript dependencies and generated frontend output
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Python environments, caches and packaging output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+
+# Runtime state and generated evidence
+data/
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+*.jsonl
+benchmark-result.json
+demo-result.json
+
+# Editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary archives and validation leftovers
+*.tmp
+*.temp
+*.bak
+*.zip
+node_modules.partial/
+
+# Required demo artefacts are intentionally NOT ignored:
+# - public/feeds/*.mp4
+# - backend/assets/scenarios/*.avi
+# - backend/models/yolox_tiny.onnx
+# - backend/checkpoints/router-review1-v2.joblib
+# These files are needed for the self-contained final-round demo.

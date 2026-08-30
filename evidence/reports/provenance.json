@@ -1,0 +1,40 @@
+{
+  "seed": 20260902,
+  "counts": {
+    "train": 9464,
+    "validation": 2088,
+    "holdout": 1962
+  },
+  "windows": 192,
+  "heavy_calls": {
+    "round_robin": 192,
+    "confidence_only": 192,
+    "learned_router": 192,
+    "oracle": 192
+  },
+  "utility": {
+    "round_robin": 68.70853938452903,
+    "confidence_only": 69.5938645478708,
+    "learned_router": 92.79790616372286,
+    "oracle": 108.42046457579725
+  },
+  "bootstrap_round_robin": {
+    "absolute": 24.089366779193764,
+    "percent": 35.0602224919628,
+    "ci95": [
+      18.306430983974398,
+      29.864562663262188
+    ],
+    "probability_positive": 1.0
+  },
+  "bootstrap_confidence_only": {
+    "absolute": 23.20404161585203,
+    "percent": 33.34207945858634,
+    "ci95": [
+      17.927664842803946,
+      28.58014045426439
+    ],
+    "probability_positive": 1.0
+  },
+  "dataset_sha256": "919ee82e7ad9d28d0de4042f8afe505948e96a80536e9a9a1fe95af4e02ad16e"
+}
