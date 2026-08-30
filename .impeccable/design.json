@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-30T23:42:17.6464202+05:30",
+  "title": "Design System: CAHMA Control",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Anodized Ground",
+        "canonical": "#0d1114",
+        "tonalRamp": ["oklch(15% 0.009 240.5)", "oklch(27% 0.009 240.5)", "oklch(39% 0.009 240.5)", "oklch(51% 0.009 240.5)", "oklch(63% 0.009 240.5)", "oklch(75% 0.009 240.5)", "oklch(87% 0.009 240.5)", "oklch(95% 0.009 240.5)"]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Instrument Panel",
+        "canonical": "#12181c",
+        "tonalRamp": ["oklch(15% 0.012 237.4)", "oklch(27% 0.012 237.4)", "oklch(39% 0.012 237.4)", "oklch(51% 0.012 237.4)", "oklch(63% 0.012 237.4)", "oklch(75% 0.012 237.4)", "oklch(87% 0.012 237.4)", "oklch(95% 0.012 237.4)"]
+      },
+      "panel-2": {
+        "role": "neutral",
+        "displayName": "Raised Steel Tone",
+        "canonical": "#182126",
+        "tonalRamp": ["oklch(15% 0.016 232.6)", "oklch(27% 0.016 232.6)", "oklch(39% 0.016 232.6)", "oklch(51% 0.016 232.6)", "oklch(63% 0.016 232.6)", "oklch(75% 0.016 232.6)", "oklch(87% 0.016 232.6)", "oklch(95% 0.016 232.6)"]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Internal Steel Rule",
+        "canonical": "#273238",
+        "tonalRamp": ["oklch(15% 0.018 232.0)", "oklch(27% 0.018 232.0)", "oklch(39% 0.018 232.0)", "oklch(51% 0.018 232.0)", "oklch(63% 0.018 232.0)", "oklch(75% 0.018 232.0)", "oklch(87% 0.018 232.0)", "oklch(95% 0.018 232.0)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural Rule",
+        "canonical": "#354248",
+        "tonalRamp": ["oklch(15% 0.020 227.6)", "oklch(27% 0.020 227.6)", "oklch(39% 0.020 227.6)", "oklch(51% 0.020 227.6)", "oklch(63% 0.020 227.6)", "oklch(75% 0.020 227.6)", "oklch(87% 0.020 227.6)", "oklch(95% 0.020 227.6)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Reading",
+        "canonical": "#92a0a6",
+        "tonalRamp": ["oklch(15% 0.018 225.3)", "oklch(27% 0.018 225.3)", "oklch(39% 0.018 225.3)", "oklch(51% 0.018 225.3)", "oklch(63% 0.018 225.3)", "oklch(75% 0.018 225.3)", "oklch(87% 0.018 225.3)", "oklch(95% 0.018 225.3)"]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Engraving",
+        "canonical": "#6f7c82",
+        "tonalRamp": ["oklch(15% 0.018 227.2)", "oklch(27% 0.018 227.2)", "oklch(39% 0.018 227.2)", "oklch(51% 0.018 227.2)", "oklch(63% 0.018 227.2)", "oklch(75% 0.018 227.2)", "oklch(87% 0.018 227.2)", "oklch(95% 0.018 227.2)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Measured Ink",
+        "canonical": "#dce2e3",
+        "tonalRamp": ["oklch(15% 0.007 208.8)", "oklch(27% 0.007 208.8)", "oklch(39% 0.007 208.8)", "oklch(51% 0.007 208.8)", "oklch(63% 0.007 208.8)", "oklch(75% 0.007 208.8)", "oklch(87% 0.007 208.8)", "oklch(95% 0.007 208.8)"]
+      },
+      "signal": {
+        "role": "primary",
+        "displayName": "Calibration Steel",
+        "canonical": "#668c9c",
+        "tonalRamp": ["oklch(15% 0.049 225.9)", "oklch(27% 0.049 225.9)", "oklch(39% 0.049 225.9)", "oklch(51% 0.049 225.9)", "oklch(63% 0.049 225.9)", "oklch(75% 0.049 225.9)", "oklch(87% 0.049 225.9)", "oklch(95% 0.049 225.9)"]
+      },
+      "signal-bright": {
+        "role": "primary",
+        "displayName": "Calibration Cyan",
+        "canonical": "#88acba",
+        "tonalRamp": ["oklch(15% 0.044 223.6)", "oklch(27% 0.044 223.6)", "oklch(39% 0.044 223.6)", "oklch(51% 0.044 223.6)", "oklch(63% 0.044 223.6)", "oklch(75% 0.044 223.6)", "oklch(87% 0.044 223.6)", "oklch(95% 0.044 223.6)"]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Admission Amber",
+        "canonical": "#ba8646",
+        "tonalRamp": ["oklch(15% 0.103 70.0)", "oklch(27% 0.103 70.0)", "oklch(39% 0.103 70.0)", "oklch(51% 0.103 70.0)", "oklch(63% 0.103 70.0)", "oklch(75% 0.103 70.0)", "oklch(87% 0.103 70.0)", "oklch(95% 0.103 70.0)"]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Fault Red",
+        "canonical": "#ad5c55",
+        "tonalRamp": ["oklch(15% 0.107 26.1)", "oklch(27% 0.107 26.1)", "oklch(39% 0.107 26.1)", "oklch(51% 0.107 26.1)", "oklch(63% 0.107 26.1)", "oklch(75% 0.107 26.1)", "oklch(87% 0.107 26.1)", "oklch(95% 0.107 26.1)"]
+      },
+      "good": {
+        "role": "secondary",
+        "displayName": "Admitted Green",
+        "canonical": "#7f9f85",
+        "tonalRamp": ["oklch(15% 0.052 150.4)", "oklch(27% 0.052 150.4)", "oklch(39% 0.052 150.4)", "oklch(51% 0.052 150.4)", "oklch(63% 0.052 150.4)", "oklch(75% 0.052 150.4)", "oklch(87% 0.052 150.4)", "oklch(95% 0.052 150.4)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Focused Camera Display", "purpose": "Names the camera under inspection without becoming a marketing hero." },
+      "headline": { "displayName": "Instrument Headline", "purpose": "Section headings, model identifiers, and capacity verdicts." },
+      "body": { "displayName": "Operational Body", "purpose": "Locations, reasons, explanations, and evidence boundaries." },
+      "label": { "displayName": "Engraved Data Label", "purpose": "Readings, IDs, ranks, timestamps, table labels, and state text." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "anchor-scroll", "value": "smooth", "purpose": "Section navigation only; reduced-motion preference switches it to auto." }
+    ],
+    "breakpoints": [
+      { "name": "mobile-stack", "value": "720px" },
+      { "name": "two-column-bench", "value": "980px" },
+      { "name": "compressed-bench", "value": "1300px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "System Navigation Link",
+      "kind": "nav",
+      "description": "A full-height section anchor in the sticky instrument header.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Dashboard sections\"><a href=\"#operations\">Operations</a><a href=\"#policies\">Policies</a><a href=\"#decisions\">Decisions</a><a href=\"#evidence\">Evidence</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 2px; height: 58px; background: var(--ground); } .ds-nav a { height: 100%; display: flex; align-items: center; padding: 0 12px; color: var(--muted); font: 12px 'Segoe UI', Arial, sans-serif; text-decoration: none; border-bottom: 2px solid transparent; } .ds-nav a:hover { color: var(--ink); border-bottom-color: var(--line); } .ds-nav a:focus-visible { outline: 2px solid var(--signal-bright); outline-offset: 3px; }"
+    },
+    {
+      "name": "Camera Index Item",
+      "kind": "button",
+      "refersTo": "camera-index-item",
+      "description": "Selects an inspection camera while separately showing runtime dispatch state.",
+      "html": "<button class=\"ds-camera-index-item ds-focused\" aria-pressed=\"true\"><span class=\"ds-camera-letter\">A</span><span class=\"ds-camera-copy\"><b>North Concourse</b><small>SAFETY · 3 detected</small></span><span class=\"ds-camera-flag\">▶</span></button>",
+      "css": ".ds-camera-index-item { width: 100%; min-height: 74px; padding: 11px; border: 0; border-bottom: 1px solid var(--steel); background: var(--panel); color: var(--ink); display: grid; grid-template-columns: 35px 1fr auto; align-items: center; gap: 9px; text-align: left; cursor: pointer; } .ds-camera-index-item:hover { background: var(--panel-2); } .ds-camera-index-item.ds-focused { background: var(--panel-2); box-shadow: inset 2px 0 var(--signal-bright); } .ds-camera-index-item:focus-visible { outline: 2px solid var(--signal-bright); outline-offset: 3px; } .ds-camera-letter { width: 31px; height: 31px; border: 1px solid var(--signal-bright); color: var(--signal-bright); display: grid; place-items: center; font: 600 14px 'Cascadia Mono', Consolas, monospace; } .ds-camera-copy b, .ds-camera-copy small { display: block; } .ds-camera-copy b { font: 600 12px 'Segoe UI', Arial, sans-serif; } .ds-camera-copy small { margin-top: 5px; color: var(--muted); font: 11px 'Cascadia Mono', Consolas, monospace; } .ds-camera-flag { color: var(--signal-bright); font: 11px 'Cascadia Mono', Consolas, monospace; }"
+    },
+    {
+      "name": "Measured Feed",
+      "kind": "custom",
+      "refersTo": "measured-feed",
+      "description": "The dominant camera aperture with reticle, coordinate, and inference-state overlays.",
+      "html": "<div class=\"ds-measured-feed ds-active\"><div class=\"ds-feed-field\">MEASURED VIDEO</div><i class=\"ds-reticle ds-top-left\"></i><i class=\"ds-reticle ds-top-right\"></i><i class=\"ds-reticle ds-bottom-left\"></i><i class=\"ds-reticle ds-bottom-right\"></i><span class=\"ds-coordinate\">FRAME 1280 × 720</span><span class=\"ds-tally\"><i></i>INFERENCE ACTIVE</span></div>",
+      "css": ".ds-measured-feed { position: relative; aspect-ratio: 16 / 5.4; overflow: hidden; background: #080b0d; border-bottom: 1px solid var(--line); color: var(--ink); } .ds-feed-field { position: absolute; inset: 0; display: grid; place-items: center; color: var(--faint); font: 11px 'Cascadia Mono', Consolas, monospace; letter-spacing: .08em; } .ds-reticle { position: absolute; width: 24px; height: 24px; border-color: #aac1ca88; } .ds-top-left { top: 12px; left: 12px; border-top: 1px solid; border-left: 1px solid; } .ds-top-right { top: 12px; right: 12px; border-top: 1px solid; border-right: 1px solid; } .ds-bottom-left { bottom: 12px; left: 12px; border-bottom: 1px solid; border-left: 1px solid; } .ds-bottom-right { right: 12px; bottom: 12px; border-right: 1px solid; border-bottom: 1px solid; } .ds-coordinate, .ds-tally { position: absolute; top: 10px; padding: 5px 7px; background: #0b1013e8; border: 1px solid #435159; color: #c6d2d6; font: 11px 'Cascadia Mono', Consolas, monospace; letter-spacing: .05em; } .ds-coordinate { left: 10px; } .ds-tally { right: 10px; display: flex; align-items: center; gap: 7px; border-color: var(--signal); color: var(--signal-bright); } .ds-tally i { width: 7px; height: 7px; background: var(--signal-bright); }"
+    },
+    {
+      "name": "Take Control Button",
+      "kind": "button",
+      "refersTo": "control-button",
+      "description": "Acquires a five-minute protected dispatch override when the runtime is connected.",
+      "html": "<button class=\"ds-control-button\"><span aria-hidden=\"true\">▣</span>Take control</button>",
+      "css": ".ds-control-button { height: 34px; padding: 0 12px; border: 1px solid var(--signal); border-radius: 0; background: #17242a; color: var(--signal-bright); display: inline-flex; align-items: center; gap: 7px; font: 600 11px 'Segoe UI', Arial, sans-serif; cursor: pointer; } .ds-control-button:hover:not(:disabled) { background: #203139; } .ds-control-button:focus-visible { outline: 2px solid var(--signal-bright); outline-offset: 3px; } .ds-control-button:disabled { opacity: .42; cursor: not-allowed; }"
+    },
+    {
+      "name": "Release Override Button",
+      "kind": "button",
+      "refersTo": "control-button-release",
+      "description": "Releases an active protected override with a cautionary, non-destructive visual distinction.",
+      "html": "<button class=\"ds-release-button\"><span aria-hidden=\"true\">▣</span>Release override</button>",
+      "css": ".ds-release-button { height: 34px; padding: 0 12px; border: 1px solid var(--amber); border-radius: 0; background: #282018; color: #d2a66f; display: inline-flex; align-items: center; gap: 7px; font: 600 11px 'Segoe UI', Arial, sans-serif; cursor: pointer; } .ds-release-button:hover:not(:disabled) { background: #203139; } .ds-release-button:focus-visible { outline: 2px solid var(--signal-bright); outline-offset: 3px; } .ds-release-button:disabled { opacity: .42; cursor: not-allowed; }"
+    },
+    {
+      "name": "Operational State Mark",
+      "kind": "chip",
+      "description": "A square marker plus explicit label for live, warning, error, and neutral states.",
+      "html": "<span class=\"ds-state-mark ds-good\"><i></i>Runtime live</span>",
+      "css": ".ds-state-mark { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font: 500 11px 'Cascadia Mono', Consolas, monospace; text-transform: uppercase; white-space: nowrap; } .ds-state-mark i { width: 7px; height: 7px; border: 1px solid currentColor; } .ds-state-mark.ds-good { color: var(--good); } .ds-state-mark.ds-good i { background: var(--good); } .ds-state-mark.ds-warn { color: var(--amber); } .ds-state-mark.ds-warn i { background: var(--amber); } .ds-state-mark.ds-bad { color: var(--red); } .ds-state-mark.ds-bad i { background: var(--red); }"
+    },
+    {
+      "name": "Instrumentation Rail Section",
+      "kind": "card",
+      "refersTo": "instrument-panel",
+      "description": "A ruled readout section for dispatch, model, capacity, or focused-policy evidence.",
+      "html": "<section class=\"ds-instrument\"><div class=\"ds-instrument-label\">CURRENT DISPATCH</div><div class=\"ds-route\"><span>CAM A</span><i></i><b>›</b><i></i><span>YOLOX-TINY</span></div><strong>Safety service interval reached</strong><dl><div><dt>Class</dt><dd>PROTECTED</dd></div><div><dt>Timestamp</dt><dd>23:36:41</dd></div></dl></section>",
+      "css": ".ds-instrument { padding: 14px; border: 1px solid var(--line); border-radius: 0; background: var(--panel); color: var(--ink); } .ds-instrument-label { color: var(--signal-bright); font: 600 11px 'Cascadia Mono', Consolas, monospace; letter-spacing: .08em; } .ds-route { margin-top: 14px; display: flex; align-items: center; color: var(--signal-bright); } .ds-route span { border: 1px solid var(--signal); padding: 7px 8px; font: 600 11px 'Cascadia Mono', Consolas, monospace; } .ds-route i { height: 1px; flex: 1; background: var(--signal); } .ds-instrument > strong { display: block; margin: 11px 0; font: 600 11px/1.45 'Segoe UI', Arial, sans-serif; } .ds-instrument dl { margin: 0; } .ds-instrument dl div { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-top: 1px solid var(--steel); font: 11px 'Segoe UI', Arial, sans-serif; } .ds-instrument dt { color: var(--muted); } .ds-instrument dd { margin: 0; font-family: 'Cascadia Mono', Consolas, monospace; }"
+    },
+    {
+      "name": "Selected Candidate Row",
+      "kind": "button",
+      "refersTo": "candidate-row-selected",
+      "description": "A policy-first candidate record that moves camera inspection focus.",
+      "html": "<button class=\"ds-candidate-row ds-selected\"><span><small>RANK</small><b>01</b></span><span><small>CAMERA</small><b>A · North Concourse</b></span><span><small>UTILITY</small><b>0.873</b></span><span><small>ELIGIBILITY</small><b>ELIGIBLE</b></span></button>",
+      "css": ".ds-candidate-row { width: 100%; min-height: 47px; padding: 0; border: 0; border-bottom: 1px solid var(--steel); background: var(--panel); color: #c6ced1; display: grid; grid-template-columns: 55px 1.1fr .65fr .85fr; align-items: center; text-align: left; cursor: pointer; } .ds-candidate-row > span { min-width: 0; padding: 8px 10px; font: 10px 'Cascadia Mono', Consolas, monospace; } .ds-candidate-row small, .ds-candidate-row b { display: block; } .ds-candidate-row small { margin-bottom: 4px; color: var(--faint); font-size: 8px; letter-spacing: .08em; } .ds-candidate-row:hover { background: var(--panel-2); } .ds-candidate-row.ds-selected { background: #162229; box-shadow: inset 2px 0 var(--signal-bright); } .ds-candidate-row:focus-visible { outline: 2px solid var(--signal-bright); outline-offset: 3px; }"
+    },
+    {
+      "name": "Current Decision Sequence Item",
+      "kind": "custom",
+      "description": "The newest retained scheduling decision in the horizontal evidence sequence.",
+      "html": "<article class=\"ds-decision-current\"><div class=\"ds-decision-time\"><span>23:36:41</span><i></i></div><strong>CAM A</strong><span>North Concourse</span><small>PROTECTED · safety requirement</small><code>dec_000124</code></article>",
+      "css": ".ds-decision-current { min-width: 190px; padding: 11px; border-right: 1px solid var(--steel); background: #162229; color: var(--ink); } .ds-decision-time { display: flex; align-items: center; gap: 7px; color: var(--faint); font: 11px 'Cascadia Mono', Consolas, monospace; } .ds-decision-time i { height: 1px; flex: 1; background: var(--signal); } .ds-decision-current > strong, .ds-decision-current > span, .ds-decision-current > small, .ds-decision-current > code { display: block; } .ds-decision-current > strong { margin-top: 12px; font: 600 13px 'Cascadia Mono', Consolas, monospace; } .ds-decision-current > span { margin-top: 3px; font: 10px 'Segoe UI', Arial, sans-serif; } .ds-decision-current > small { min-height: 27px; margin-top: 8px; color: var(--muted); font: 11px/1.45 'Segoe UI', Arial, sans-serif; text-transform: lowercase; } .ds-decision-current > code { margin-top: 8px; color: var(--faint); font: 11px 'Cascadia Mono', Consolas, monospace; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Optical Metrology Bench",
+    "overview": "CAHMA Control is built as a measured industrial instrument, not a generic dashboard. Anodized graphite planes, steel rules, engraved labels, desaturated camera fields, tabular readings, and sparse signal colors make policy-governed allocation visible as a physical-feeling operating bench. The surface is dense but ordered: the live mechanism is dominant, while every surrounding panel explains what the runtime admitted, selected, inferred, or retained.\n\nThe composition tells one continuous story: choose a camera in the index, inspect its measured feed, read the fixed dispatch and capacity rail, compare the camera array, scan the ranked candidate field, then follow the retained decision sequence into policy and evidence. Runtime absence is never cosmetically repaired. Unconfirmed fixtures, empty readings, stale events, rejected capacity, and disabled controls remain visibly distinct from healthy operation.",
+    "keyCharacteristics": [
+      "Planar graphite surfaces separated by steel rules, never floating cards.",
+      "Square instrument geometry with right-angle reticles, meters, cells, and state marks.",
+      "Measured video as the visual center, with coordinates, detections, tally, and numeric strips attached to the frame.",
+      "A narrow camera index and fixed instrumentation rail that keep selection, dispatch, capacity, and policy in view.",
+      "Cyan-steel for focus and inference, with muted green, amber, and red reserved for semantic state.",
+      "Compact system typography and tabular data that stay legible in a projected laptop demo."
+    ],
+    "rules": [
+      { "name": "The Signal Economy Rule", "body": "Calibration cyan marks focus, selection, route, or active inference; it is not ambient decoration.", "section": "colors" },
+      { "name": "The Redundant State Rule", "body": "Operational state always has a text label, symbol, border, or placement cue in addition to color.", "section": "colors" },
+      { "name": "The No Spectacle Color Rule", "body": "Gradients, neon, rainbow accents, pastel surfaces, and decorative color effects are forbidden.", "section": "colors" },
+      { "name": "The Instrument Label Rule", "body": "Uppercase mono labels identify equipment and state; sentence-case sans text explains meaning.", "section": "typography" },
+      { "name": "The No Hero Type Rule", "body": "Type supports the operating surface; no oversized marketing headline may displace live mechanism or evidence.", "section": "typography" },
+      { "name": "The Mechanism-First Rule", "body": "Camera selection, measured feed, dispatch, capacity, candidate ordering, and operator control must remain ahead of policy explanation and historical evidence.", "section": "layout" },
+      { "name": "The Planar Bench Rule", "body": "Do not add ambient shadows, glow, blur, glass, or lifted-card depth; use rules and tonal planes.", "section": "elevation" },
+      { "name": "The Inset State Rule", "body": "A two-pixel cyan inset edge may mark the current camera, candidate, or compact feed, but it never becomes a decorative shadow vocabulary.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do preserve the Optical Metrology Bench sequence: camera index, measured feed, dispatch/capacity rail, camera array, candidate field, decision sequence, policy, then evidence.",
+      "Do use square geometry, one-pixel steel rules, compact mono readings, and desaturated measured video as the durable instrument language.",
+      "Do distinguish focused inspection, selected dispatch, active inference, eligibility, connection phase, fixture use, stale data, capacity rejection, and unavailable data with explicit language.",
+      "Do keep keyboard focus visible with the two-pixel cyan outline and three-pixel offset on every interactive anchor and button.",
+      "Do preserve the truthful empty and unconfirmed states and the inspect-only camera-policy boundary.",
+      "Do treat the Bahnschrift, Segoe UI, Cascadia Mono, and Consolas stacks as system-dependent until an approved bundled-font strategy exists."
+    ],
+    "donts": [
+      "Don't introduce gradients, rainbow or neon color, pastel palettes, radial orbs, dot-grid backgrounds, sparkles, emojis, or generic AI decoration.",
+      "Don't use liquid glass, backdrop blur, ambient glow, large shadows, lifted cards, bento grids, or excessive rounded containers.",
+      "Don't turn the interface into a terminal window, marketing page, fake demo, pricing surface, testimonial wall, social-proof module, or checklist pitch.",
+      "Don't add excessive pills, decorative arrows, oversized type, excessive hover motion, or ornamental animation.",
+      "Don't invent healthy runtime values, hide unavailable states, imply policy mutation, or overstate detector and learned-SAGE evidence.",
+      "Don't install or substitute a hosted display font without resolving the current denied self-hosting constraint and verifying projected-laptop metrics."
+    ]
+  }
+}
